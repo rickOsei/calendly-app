@@ -1,13 +1,792 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* **********************************************************Home Styling *************************************************************************/
+* {
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: black !important;
 }
+
+.navbar {
+  background-color: black !important;
+  margin-top: -20px;
+  margin-bottom: 120px;
+}
+
+.navbar-brand {
+  margin-right: 120px !important;
+}
+
+.nav-item {
+  color: aliceblue !important;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 70px 10px;
+  text-decoration: none;
+}
+
+.main {
+  margin-top: 120px;
+}
+
+.content h1 {
+  font-size: 55px;
+  font-weight: 850;
+  margin-bottom: 40px;
+  color: aliceblue;
+  letter-spacing: 1px;
+  line-height: 70px;
+}
+
+.content p {
+  color: aliceblue;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.gold {
+  color: #bba14f;
+  font-weight: 850;
+}
+
+.content .maintext {
+  margin-bottom: 30px;
+}
+
+.content input {
+  width: 350px;
+  height: 57px;
+  padding-left: 20px;
+  border-radius: 100px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 2px 2px 10px 1px rgb(97, 96, 96);
+  background-color: black;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(160, 156, 156);
+  opacity: 1; /* Firefox */
+}
+
+.content label button {
+  width: 110px;
+  height: 59px;
+  border-radius: 100px;
+  position: relative;
+  right: 70px;
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.content .caption {
+  font-size: 14px;
+  font-weight: 200;
+  margin-left: 20px;
+  color: rgb(156, 167, 177);
+}
+
+.images {
+  position: relative;
+}
+
+.images .laptop {
+  margin-top: -120px;
+  margin-left: -140px;
+  width: 1200px;
+  height: 650px;
+}
+
+.images .dog {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  position: absolute;
+  top: 225px;
+  right: 220px;
+}
+
+.home-banner {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.home-banner_brands {
+  background-color: rgb(14, 13, 13);
+  height: 250px;
+  padding-top: 30px;
+}
+
+.home-banner p {
+  color: aliceblue;
+}
+
+.home-brands {
+  padding-left: 300px;
+  height: 100px;
+}
+
+/* .brands img{
+    padding-bottom: 20px;
+    padding-top: 20px;
+} */
+
+.compass {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  bottom: 65px;
+  right: 30px;
+}
+
+.dropbox {
+  width: 30px;
+  height: 25px;
+  position: relative;
+  top: 18px;
+  right: -50px;
+}
+
+.ebay {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  right: 15px;
+  bottom: 50px;
+}
+
+.lazboy {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  bottom: 35px;
+  right: 10px;
+}
+
+.twilio {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  left: 30px;
+  bottom: 25px;
+}
+
+.card_zone {
+  margin-top: 80px;
+}
+
+.card_zone h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 650;
+  color: rgb(153, 164, 172);
+}
+
+.card {
+  height: 200px;
+  margin-top: 20px;
+  background-color: black !important;
+  color: aliceblue;
+}
+
+.one {
+  position: relative;
+  left: 75px;
+}
+
+.three {
+  margin-left: -75px;
+}
+
+.card-body h5 {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.card-body p {
+  font-weight: 300;
+}
+
+/* **********************************************************Home Styling *************************************************************************/
+
+/* **********************************************************Individuals Styling ******************************************************************/
+
+.top h1 {
+  font-size: 55px;
+  font-weight: 850;
+  margin-bottom: 40px;
+  color: aliceblue;
+  letter-spacing: 1px;
+  line-height: 70px;
+}
+
+.top p {
+  color: aliceblue;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.gold {
+  color: #bba14f;
+  font-weight: 850;
+}
+
+.top .btn {
+  margin-top: 40px;
+  border: none;
+  font-size: 12px;
+  color: aliceblue;
+  width: 170px;
+  height: 60px;
+  border-radius: 75px;
+  box-shadow: 1px 1px 3px 1px #a08736;
+}
+
+.top_img img {
+  width: 450px;
+  height: 400px;
+}
+
+.middle {
+  margin-top: 120px;
+}
+
+.middle .caption {
+  color: rgb(166, 175, 182);
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1.2px;
+}
+
+.middle p {
+  color: aliceblue;
+  margin-top: -5px;
+}
+
+.middle h2 {
+  font-size: 30px;
+  font-weight: 850;
+  margin-bottom: 40px;
+  color: aliceblue;
+  letter-spacing: 1.2px;
+}
+
+.bottom {
+  margin-top: 120px;
+}
+
+.bottom_text {
+  margin-right: -100px;
+}
+
+.bottom .caption {
+  color: rgb(166, 175, 182);
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1.2px;
+}
+
+.bottom p {
+  color: aliceblue;
+  margin-top: -5px;
+}
+
+.bottom h2 {
+  font-size: 30px;
+  font-weight: 850;
+  margin-bottom: 40px;
+  color: aliceblue;
+  letter-spacing: 1.2px;
+}
+
+.banners {
+  margin-top: 130px;
+  padding-left: 210px;
+  padding-top: 120px;
+  height: 550px;
+  background: url("../public/individuals/images/bg-ind1.jpg");
+  background-size: cover;
+}
+
+.banner p {
+  font-size: 40px;
+  font-weight: 850;
+  margin-bottom: 40px;
+  color: aliceblue;
+}
+
+.btn_banner {
+  margin-top: 5px;
+  border: none;
+  font-size: 12px;
+  color: black;
+  width: 170px;
+  height: 55px;
+  border-radius: 75px;
+  box-shadow: 2px 2px 4px 1px gray;
+}
+
+.footer {
+  margin-top: 70px;
+  padding-left: 170px;
+}
+
+.footer #google {
+  position: relative;
+  bottom: -8px;
+  right: 65px;
+}
+
+.footer #appstore {
+  position: relative;
+  right: 20px;
+}
+
+.footer h1 {
+  font-size: 30px;
+  font-weight: 850;
+  margin-bottom: 40px;
+  color: aliceblue;
+  letter-spacing: 1.2px;
+  line-height: 45px;
+}
+
+.footer p {
+  color: aliceblue;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+#select-lang {
+  width: 280px;
+  height: 40px;
+  border-radius: 7px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(198, 206, 211);
+  background-color: black;
+  border: none;
+  box-shadow: 1px 1px 3px 0.5px #a08736;
+  margin-bottom: 20px;
+}
+
+i {
+  color: aliceblue;
+  margin: 10px;
+}
+
+footer ul {
+  list-style: none;
+  position: relative;
+  left: -40px;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+footer li {
+  margin-bottom: 20px;
+  font-size: 13px;
+  letter-spacing: 1.7px;
+  font-weight: 300;
+  color: rgb(170, 178, 185);
+}
+
+.support,
+.add-ons {
+  margin-top: 60px;
+}
+
+.developers {
+  margin-top: 100px;
+}
+
+/* **********************************************************Individuals Styling ******************************************************************/
+
+/* **********************************************************Teams Styling ************************************************************************/
+
+.top_text {
+  margin-top: 40px;
+}
+
+.top_img img {
+  width: 950px !important;
+  height: 450px !important;
+}
+
+.top h1 {
+  font-size: 40px;
+  font-weight: 850;
+  margin-bottom: 40px;
+  color: aliceblue;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+
+.top p {
+  color: aliceblue;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.gold {
+  color: #bba14f;
+  font-weight: 850;
+}
+
+.top .btn_start {
+  margin-top: 40px;
+  border: none;
+  font-size: 12px;
+  background-color: #bba14f;
+  color: rgb(0, 0, 0);
+  width: 170px;
+  height: 60px;
+  border-radius: 75px;
+  box-shadow: 1px 1px 3px 1px #a08736;
+}
+
+.top .btn_sales {
+  margin-top: 40px;
+  margin-left: 15px;
+  border: none;
+  font-size: 12px;
+  background-color: black;
+  color: rgb(245, 246, 247);
+  width: 170px;
+  height: 60px;
+  border-radius: 75px;
+  box-shadow: 1px 1px 3px 1px #a08736;
+}
+
+.top_img img {
+  width: 450px;
+  height: 400px;
+}
+
+.mid_title h1 {
+  margin-top: 150px;
+  text-align: center;
+  color: aliceblue;
+  font-weight: 650;
+}
+
+.middle {
+  margin-top: 120px !important;
+}
+
+.middle_text {
+  position: relative;
+  left: 70px;
+}
+
+.middle .caption {
+  color: #bba14f;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.middle p {
+  color: aliceblue;
+  margin-top: -5px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.middle h2 {
+  font-size: 30px;
+  font-weight: 450;
+  margin-bottom: 40px;
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+
+.card_zone {
+  margin-top: 120px;
+}
+
+.card_zone .caption {
+  text-align: center;
+  color: #bba14f;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.card_zone .card_title {
+  text-align: center;
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.main_card {
+  margin: 40px 0 0 50px !important;
+}
+
+.teams-card {
+  height: 350px !important;
+  background-color: rgb(0, 0, 0) !important;
+  border: none;
+  box-shadow: 1px 1px 3px 1px #a08736;
+}
+
+.card img {
+  height: 150px;
+}
+
+.card-body h5 {
+  font-size: 15px;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.card-body p {
+  font-size: 13px;
+  font-weight: 300;
+  color: aliceblue;
+}
+
+.card a {
+  font-weight: 550;
+  color: #bba14f;
+  position: relative;
+  top: 40px;
+  text-decoration: none;
+}
+
+/* **********************************************************Teams Styling ************************************************************************/
+
+/* **********************************************************Enterprises Styling ******************************************************************/
+.ent-top {
+  margin-top: 50px;
+}
+
+.ent-top_text {
+  color: aliceblue;
+  text-align: center;
+}
+
+.ent-top h1 {
+  font-size: 40px;
+  font-weight: 850;
+  margin-bottom: 40px;
+  color: aliceblue;
+  letter-spacing: 1px;
+  line-height: 60px;
+}
+
+.ent-top p {
+  color: aliceblue;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-weight: 450;
+}
+
+.gold {
+  color: #bba14f;
+  font-weight: 850;
+}
+
+.ent-top .btn {
+  margin-top: 40px;
+  border: none;
+  font-size: 12px;
+  color: aliceblue;
+  width: 170px;
+  height: 60px;
+  border-radius: 75px;
+  box-shadow: 1px 1px 3px 1px #a08736;
+}
+
+.banner_brands {
+  margin-top: 70px;
+  background: url("../public/enterprise/images/bg\ enterprise\ copy4.jpg");
+  background-size: cover;
+}
+
+.banner {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.banner_brands {
+  background-color: rgb(14, 13, 13);
+  height: 250px;
+  padding-top: 30px;
+  border: none;
+}
+
+.banner p {
+  color: aliceblue;
+}
+
+.brands {
+  padding-left: 300px;
+  height: 100px;
+}
+
+/* .brands img{
+    padding-bottom: 20px;
+    padding-top: 20px;
+} */
+
+.visa {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: -2px;
+  right: 5px;
+}
+
+.dropbox {
+  width: 30px;
+  height: 25px;
+  position: relative;
+  top: 18px;
+  right: -85px;
+}
+
+.ebay {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  right: 15px;
+  bottom: 50px;
+}
+
+.loreal {
+  width: 110px;
+  height: 110px;
+  position: relative;
+  bottom: 32px;
+  right: 20px;
+}
+
+.lyft {
+  width: 70px;
+  height: 40px;
+  position: relative;
+  left: -20px;
+  bottom: -9px;
+}
+
+.ent-card_zone {
+  margin-top: 70px;
+  padding-left: 220px;
+}
+
+.ent-card {
+  height: 480px;
+  padding-top: 30px;
+  border-radius: 20px;
+  background-color: black;
+  border: none;
+  box-shadow: 1px 1px 3px 3px #4b401e;
+}
+
+.ent-one {
+  position: relative;
+  right: 25px;
+}
+
+.ent-three {
+  position: relative;
+  left: 25px;
+}
+
+.ent-card h5 {
+  padding-left: 40px;
+  color: #bba14f;
+  font-weight: 650;
+}
+
+.ent-card img {
+  padding-left: 20px;
+  margin-top: 20px;
+  width: 220px;
+  height: 200px;
+}
+
+.ent-card p {
+  margin-top: 5px;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  font-weight: 350;
+  text-align: left;
+  color: aliceblue;
+}
+
+.card_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_card {
+  margin-top: 40px;
+  border: none;
+  font-size: 12px;
+  background-color: black;
+  color: aliceblue;
+  width: 170px;
+  height: 60px;
+  border-radius: 75px;
+  box-shadow: 1px 1px 3px 1px #a08736;
+  position: relative;
+  right: 120px;
+}
+
+.error {
+  text-align: center;
+}
+
+.error h1 {
+  font-size: 35px;
+  font-weight: 550;
+  margin-bottom: 40px;
+  color: aliceblue;
+  letter-spacing: 1px;
+  line-height: 70px;
+  text-transform: capitalize;
+}
+
+.error-btn {
+  margin-top: 40px;
+  border: none;
+  font-size: 12px;
+  background-color: black;
+  color: aliceblue;
+  width: 170px;
+  height: 60px;
+  border-radius: 75px;
+  box-shadow: 1px 1px 3px 1px #a08736;
+  text-transform: capitalize;
+}
+
+/* **********************************************************Enterprises Styling ******************************************************************/
